@@ -1,5 +1,6 @@
 package com.brixton.demo.model;
 
+import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
@@ -7,7 +8,8 @@ import lombok.ToString;
 @Setter
 @Getter
 @ToString
-public class ProductoPrueba {
+@Builder
+public class Producto {
     private String codigo;
     private String nombre;
     private  Integer stock;
@@ -26,7 +28,7 @@ public class ProductoPrueba {
     }
 
     public void venderProducto(Integer cuantoQuieres) {
-
+        System.out.println("CANTIDAD QUE QUIERE EL CLIENTE: " + cuantoQuieres);
         // IF ( CONDICION COMPARACION )  ES CIERTA ... ENTONCES HAZ {
         // .... LO QUE ESTA ENTRE LAS LLAVES
         //}  ELSE  -----NO ES CIERTO (SINO) {
@@ -35,11 +37,24 @@ public class ProductoPrueba {
         if ( cuantoQuieres > verificarStock()) {
             System.out.println("NO TENGO SUFICIENTE, solo tengo: " + getStock()+", " + getNombre());
         }  else {
-            System.out.printf("SI TENGO "+ getNombre());
+            System.out.println("Tengo "+ getNombre() + ", cantidad: " + getStock());
+            recalcularStockPorVenta(cuantoQuieres);
         }
-        //
+    }
+
+    public void llegaProductos(Integer cuantoRecibes) {
+        recalcularStockPorCompra(cuantoRecibes);
     }
 
 
+    public void recalcularStockPorVenta(Integer cantidadAActualizar) {
+        //miStock = miStock + cantidadAActualizar;
+        setStock( getStock() - cantidadAActualizar );
+    }
+
+    public void recalcularStockPorCompra(Integer cantidadAActualizar) {
+        //miStock = miStock + cantidadAActualizar;
+        setStock( getStock() + cantidadAActualizar );
+    }
 
 }

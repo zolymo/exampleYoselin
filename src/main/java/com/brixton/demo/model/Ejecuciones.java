@@ -1,40 +1,41 @@
 package com.brixton.demo.model;
 
 public class Ejecuciones {
+    /*
     public static void main(String [] argv) {
 
-        ProductoPrueba polo = new ProductoPrueba();
+        Producto polo = new Producto();
         polo.setCodigo("P001");
         polo.setNombre("POLO");
         polo.setStock(15);
         polo.setPrecioUnitario(25.30);
 
-        ProductoPrueba Short = new ProductoPrueba();
+        Producto Short = new Producto();
         Short.setCodigo("S001");
         Short.setNombre("SHORT");
         Short.setStock(8);
         Short.setPrecioUnitario(18.70);
 
-        ProductoPrueba perfume = new ProductoPrueba();
+        Producto perfume = new Producto();
         perfume.setCodigo("PE04");
         perfume.setNombre("PERFUME");
         perfume.setStock(3);
         perfume.setPrecioUnitario(59.90);
 
-        ProductoPrueba collar = new ProductoPrueba();
+        Producto collar = new Producto();
         collar.setCodigo("C002");
         collar.setNombre("PERLA");
         collar.setStock(2);
         collar.setPrecioUnitario(59.90);
 
-        ProductoPrueba zapato = new ProductoPrueba();
+        Producto zapato = new Producto();
         zapato.setCodigo("Z024");
         zapato.setNombre("ROJOS");
         zapato.setStock(7);
         zapato.setPrecioUnitario(100.00);
 
 
-        ProductoPrueba  arete = new ProductoPrueba();
+        Producto arete = new Producto();
         arete.setCodigo("A012");
         arete.setNombre(" FLOREADO");
         arete.setStock(1);
@@ -51,8 +52,11 @@ public class Ejecuciones {
         System.out.println( "prod6 " + arete );
 
 
+
         polo.venderProducto(40);
+        System.out.println(polo);
         Short.venderProducto(2);
+        System.out.println("Stock de short " + Short.getStock());
         perfume.venderProducto(5);
         collar.venderProducto(10);
         zapato.venderProducto(21);
@@ -60,9 +64,20 @@ public class Ejecuciones {
 
 
 
+/*
+
+        Integer miEdad = 27;
+        System.out.println("mi edad" + miEdad);
+        System.out.println("-" );
+
+        miEdad = miEdad + 1;
+        System.out.println("mi edad" + miEdad);
+
+*/
 
 
+/*
 
 
-    }
+    }*/
 }
