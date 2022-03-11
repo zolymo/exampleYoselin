@@ -54,6 +54,66 @@ public class AppNueva {
         System.out.println(edadAngela);
         System.out.println(edadYoselin);
 
+        byte digito= 127;
+        System.out.println(digito);
+
+        int resto = 10 % 3;
+        System.out.println(resto);
+        int z = 0;
+        z = 1;
+        z = z + 1;
+        z = z - 1;
+        System.out.println(z);
+
+        int a = 2;
+        a = a + 4;
+        a = a + 5;
+        a = a + 6;
+        System.out.println(a);
+
+        int y = 2;
+        y += 4;
+        y *= 5;
+        y += 6;
+        System.out.println(y);
+
+        int sumatoria = 0;
+        sumatoria += 1;
+        System.out.println(sumatoria);
+        sumatoria += 3;
+        System.out.println(sumatoria);
+        sumatoria += 5;
+        System.out.println(sumatoria);
+        sumatoria += 7;
+        System.out.println(sumatoria);
+        sumatoria += 9;
+        System.out.println(sumatoria);
+
+        if(edadAngela < 18){
+            System.out.println("es menor");
+        }
+        else{
+            System.out.println("es mayor");
+        }
+
+        String color = "amarillo";
+        int edad = 20;
+        boolean esamarilloYtienemenosde20 = (color == "amarillo" && edad<20 );
+        System.out.println(esamarilloYtienemenosde20);
+
+        int años = 30;
+        String colorRopa = "verde";
+
+        if(años > 18 && colorRopa == "verde"){
+            System.out.println("tienes bonito gusto");
+        }
+
+        Persona carlos = new Persona();
+        int años = 19;
+        boolean carnetVacunacion = ("si");
+        String tipoEntrada = ("VIP");
+
+
 
 
 
