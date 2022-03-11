@@ -108,10 +108,84 @@ public class AppNueva {
             System.out.println("tienes bonito gusto");
         }
 
-        Persona carlos = new Persona();
-        int años = 19;
-        boolean carnetVacunacion = ("si");
-        String tipoEntrada = ("VIP");
+
+        //* TAREA//*
+
+        int carlosAños = 19;
+        String carlosCarnetVacunacion = ("si");
+        String carlostipoEntrada = ("VIP");
+
+        if (carlosAños > 18 && carlosCarnetVacunacion == "si" && carlostipoEntrada == "VIP"){
+            System.out.println("BIENVENIDO VIP");
+        }
+        if (carlosAños > 18 && carlosCarnetVacunacion == "no" && carlostipoEntrada == "VIP") {
+            System.out.println("BIENVENIDO ESTANDAR");
+        }
+        if (carlosAños > 18 && carlosCarnetVacunacion == "si" && carlostipoEntrada == "ESTANDAR") {
+            System.out.println("BIENVENIDO ESTANDAR");
+        }
+        if (carlosAños > 18 && carlosCarnetVacunacion == "no" && carlostipoEntrada == "ESTANDAR") {
+            System.out.println("BIENVENIDO ESTANDAR");
+        }
+
+
+        int marcosAños = 32;
+        String marcosCarnetVacunacion = ("si");
+        String marcostipoEntrada = ("ESTANDAR");
+
+        if (marcosAños > 18 && marcosCarnetVacunacion == "si" && marcostipoEntrada == "VIP"){
+            System.out.println("BIENVENIDO VIP");
+        }
+        if (marcosAños > 18 && marcosCarnetVacunacion == "no" && marcostipoEntrada == "VIP") {
+            System.out.println("BIENVENIDO ESTANDAR");
+        }
+        if (marcosAños > 18 && marcosCarnetVacunacion == "si" && marcostipoEntrada == "ESTANDAR") {
+            System.out.println("BIENVENIDO ESTANDAR");
+        }
+        if (marcosAños > 18 && marcosCarnetVacunacion == "no" && marcostipoEntrada == "ESTANDAR") {
+            System.out.println("BIENVENIDO ESTANDAR");
+        }
+
+        int joseAños = 27;
+        String joseCarnetVacunacion = ("si");
+        String josetipoEntrada = ("NORMAL");
+
+        if (joseAños > 18 && joseCarnetVacunacion == "si" && josetipoEntrada == "VIP"){
+            System.out.println("BIENVENIDO VIP");
+        }
+        if (joseAños > 18 && joseCarnetVacunacion == "no" && josetipoEntrada == "VIP") {
+            System.out.println("BIENVENIDO ESTANDAR");
+        }
+        if (joseAños > 18 && joseCarnetVacunacion == "si" && josetipoEntrada == "ESTANDAR") {
+            System.out.println("BIENVENIDO ESTANDAR");
+        }
+        if (joseAños > 18 && joseCarnetVacunacion == "no" && josetipoEntrada == "ESTANDAR") {
+            System.out.println("BIENVENIDO NORMAL");
+        }
+            else {
+                System.out.println("BIENVENIDO NORMAL");
+        }
+
+
+
+        int davidAños = 20;
+        boolean davidCarnet = true;
+        String davidCarnetVacunacion = ("no");
+        String davidtipoEntrada = ("VIP");
+
+        if (davidAños > 18 && davidCarnetVacunacion == "si" && davidtipoEntrada == "VIP"){
+            System.out.println("BIENVENIDO VIP");
+        }
+        if (davidAños > 18 && davidCarnetVacunacion == "no" && davidtipoEntrada == "VIP") {
+            System.out.println("BIENVENIDO ESTANDAR");
+        }
+        if (davidAños > 18 && davidCarnetVacunacion == "si" && davidtipoEntrada == "ESTANDAR") {
+            System.out.println("BIENVENIDO ESTANDAR");
+        }
+        if (davidAños > 18 && davidCarnetVacunacion == "no" && davidtipoEntrada == "ESTANDAR") {
+            System.out.println("BIENVENIDO NORMAL");
+        }
+
 
 
 

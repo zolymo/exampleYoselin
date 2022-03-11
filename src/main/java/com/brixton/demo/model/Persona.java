@@ -96,7 +96,7 @@ public class Persona {
         martin.setApellidos("CARDENAS CRUZ");
         martin.setNroDni(70243393);
 
-        System.out.println("lidia: " + lidia.toString());
+
         System.out.println("eduardo: " + eduardo.toString());
         System.out.println("martin: " + martin.toString());
 
