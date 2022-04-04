@@ -152,6 +152,13 @@ public class Tarea {
         boolean val6 = !xxx && yyy && (!zzz || !xxx);
         System.out.println(val6);
 
+        double residuo = 17.5 % 5;
+        System.out.println(residuo);
+
+        System.out.printf("%s%n%s%n", "este es un", "programa en java");
+
+
+
 
 
 
